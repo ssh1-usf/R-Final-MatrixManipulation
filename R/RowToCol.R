@@ -2,9 +2,7 @@
 #'
 #' This function transforms a single column Matrix into a single column
 #' @param m The name of the matrix that will be processed
-#' @keywords
-#' @export
-#' @examples
+#' @return the transformed matrix
 #' RowToCol()
 
 RowToCol <- function(m) {
@@ -28,8 +26,9 @@ RowToCol <- function(m) {
       idxRow = idxRow + 1
       idxCol = 1
     }
-
+    newMatrix <- na.omit(newMatrix)
+  return(newMatrix)
   }
   else
-  {print("This function only works on a Matrix")}
+  {return("This function only works on a Matrix")}
 }
