@@ -1,0 +1,13 @@
+Package: MatrixManipulation
+Title: Reagrange Data Into a New Maxrix
+Version: 0.0.0.9000
+Authors@R: "Syed Hussain <ssh1@mail.usf,edu> [aut, cre]"
+Description: This package contains a function that transforms a single column Matrix into a single column
+License: use_gpl3_license()
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
